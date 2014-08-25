@@ -1,0 +1,33 @@
+Installation instructions:
+1. Follow the prompts , if you choose the wrong template directory will result not load or unable to create works properly ;
+2. Make sure the installation directory is the root directory of VS vc : If Win8 + vs2013 default directory is as follows £º
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\
+3. modified versions of this tool to automatically copy function in addition to the plug , turn on this feature if you need to manually edit
+appwiz \ IDA Pro \ Scripts \ 1033 \ default.js file , remove the following lines of comments:
+
+Otherwise it will lead to include the directory or file can not be found or can not generate plw file.
+4. is not yet part of the error correction will be fixed in future versions .
+393 lines //PostBuildTool.Description = 'Copying "$(TargetFileName)" to "' + strCopyToFolder + '"...';
+397 lines / / PostBuildTool.CommandLine = 'copy / b / y "$ (TargetDir) $ (TargetFileName)" "' + strCopyToFolder + '"';
+The default setting for the project code IDA6.1, an amendment to the Lib directory , please if you need to modify the same file default.js modify the following code:
+if (bIDA64)
+{
+    strAdditionalLibraryDirectories += "$(IdaSdkLibraryDir)x86_win_vc_64";
+    if (wizard.FindSymbol('DEBUGGER_MODULE'))
+    {
+        strAdditionalLibraryDirectories = addSemiColonIfNeeded(strAdditionalLibraryDirectories);
+        strAdditionalLibraryDirectories += "$(IdaSdkLibraryDir)x86_win_vc_64";
+    }
+}
+else
+{
+    strAdditionalLibraryDirectories += "$(IdaSdkLibraryDir)x86_win_vc_32";
+}
+var strAdditionalDependencies = addSemiColonIfNeeded(LinkTool.AdditionalDependencies);
+strAdditionalDependencies = "$(IdaSdkLibraryDir)\ida.lib";
+
+
+
+Mars Institute of Information Security
+======================
+http://www.techbliss.org
