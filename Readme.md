@@ -6,6 +6,7 @@ Screenshot:
 ![](https://bytebucket.org/obaby/ida-pro-plugin-wizard-for-vs2013/raw/998d9eefefc24169ebbb915b8a225c559110326e/ScreenShot/screenshot.png?token=3b652e8c1df73fd8601080cee116384d77d69605)
 
 向导截图：
+
 ![](https://bytebucket.org/obaby/ida-pro-plugin-wizard-for-vs2013/raw/998d9eefefc24169ebbb915b8a225c559110326e/ScreenShot/1.png?token=cf918839cc84560b7cc9eba55a22e26cdaa2b69a)
 
 ![](https://bytebucket.org/obaby/ida-pro-plugin-wizard-for-vs2013/raw/998d9eefefc24169ebbb915b8a225c559110326e/ScreenShot/2.png?token=ab1498af72d274f02d5e13a7498cc888ec201c0c)
