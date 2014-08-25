@@ -1,0 +1,3 @@
+1>------ 已启动生成:  项目: Project3, 配置: Debug 64-bit Win32 ------
+1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Cpp.Platform.targets(64,5): error MSB8020: The build tools for Visual Studio 2010 (Platform Toolset = 'v100') cannot be found. To build using the v100 build tools, please install Visual Studio 2010 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Upgrade Solution...".
+========== 生成:  成功 0 个，失败 1 个，最新 0 个，跳过 0 个 ==========
