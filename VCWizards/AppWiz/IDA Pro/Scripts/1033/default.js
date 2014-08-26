@@ -600,6 +600,7 @@ function CreateCustomProjectFile(ToolsVersion)
                 {
                     oStream.WriteLine("  <PropertyGroup Condition=\"'$(Configuration)|$(Platform)'=='" + astrConfigName[j] + "|" + astrPlatforms[i] + "'\" Label=\"Configuration\" >");
                     oStream.WriteLine("    <ConfigurationType>DynamicLibrary</ConfigurationType>");
+                    oStream.WriteLine("    <PlatformToolset>v120</PlatformToolset> "); /*修改项目默认Platformtoolsset为v120（VisualStudio2013）by obaby*/
                     oStream.WriteLine("  </PropertyGroup>");
                 }
                 else
