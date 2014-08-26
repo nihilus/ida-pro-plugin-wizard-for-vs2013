@@ -1,0 +1,19 @@
+Ida Plugin Wizard for Vs2013
+Statement:
+The IDA plugin installation tool for creating rapid development under VS2013 wizard. I just code for a simple package and modify. Code belongs to original author.
+Source code can get from this link: https://github.com/htk59/IDA-Pro-plugin-wizard
+Or get the source code from the {app} \ VCWizards AppWiz and {app} \ under the VS \ \ vcprojects \ directory after you install the template.
+The License Agreement modify the source code.
+If due to the installation of the template vs damage, I no responsibility.
+This is a IDA Pro plugin wizard for Visual Studio 2013.
+All appropriate compiler and linker options are configured by the wizard.
+This tool is based on the source code has been modified to remove some of the features, an amendment to the part of the code.
+======================
+Source Code:
+http://code.h4ck.org.cn/ida-pro-plugin-wizard-for-vs2013
+
+Web Site:
+http://www.h4ck.org.cn
+
+Thanks to:
+http://www.techbliss.org
